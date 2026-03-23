@@ -683,3 +683,22 @@ body {
 .meta-block p:last-child {
   margin-bottom: 0;
 }
+.project-image-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.project-image-link:hover .project-image-wrap {
+  transform: translate(-6px, -6px);
+  box-shadow: 8px 8px 0 var(--ink);
+  transition: 0.2s ease;
+}
+
+.project-image-wrap {
+  transition: 0.2s ease;
+}
+
+.project-link-row {
+  margin-top: 1rem;
+}
