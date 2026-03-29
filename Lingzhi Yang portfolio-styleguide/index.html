@@ -3,422 +3,75 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lingzhi Yang Style Guide</title>
+  <title>Lingzhi Yang | Home</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inter:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="site-header">
-    <div class="brand-name">Lingzhi Yang</div>
+    <div class="brand-name">Lingzhi yang</div>
     <nav class="main-nav">
-      <a href="#brand">Home</a>
-      <a href="#colors">Colors</a>
-      <a href="#type">Type</a>
-      <a href="#components">Components</a>
-      <a href="#template">Template</a>
-      <a href="#projects">Projects</a>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="styleguide.html">Styleguide</a>
+      <a href="projects.html">Project</a>
+      <a href="contact.html">Contact</a>
     </nav>
   </header>
 
-  <main>
-    <section id="brand" class="hero">
-    <div class="hero-left">
-        <div class="name-card">
-        <div class="name-block">
-            <span class="c-blue">LING</span><span class="c-pink">ZHI</span><br>
-            <span class="c-olive">YAN</span><span class="c-purple">G</span>
-        </div>
-        </div>
+  <main class="home-page">
+    <section class="home-hero">
+      <div class="home-hero-image-wrap">
+        <img src="img/aboutpage_img1.png" alt="Home portrait image for Lingzhi Yang">
+      </div>
 
-        <p class="hero-kicker">INTERACTIVE ARTS / DIGITAL STORYTELLING / VISUAL DESIGN</p>
+      <div class="home-hero-overlay"></div>
 
-        <h1 class="hero-title">
-        Rebuilding the world with pixels, interaction, and inspiration.
+      <div class="home-hero-content">
+        <h1 class="home-name-block">
+          <span class="name-blue">LING</span><span class="name-pink">ZHI</span><br>
+          <span class="name-olive">YAN</span><span class="name-purple">G</span>
         </h1>
 
-        <div class="keyword-row">
-        <span>Bold</span>
-        <span>Editorial</span>
-        <span>Playful</span>
-        <span>Interactive</span>
-        </div>
-    </div>
-
-    <div class="hero-right">
-        <div class="bio-panel">
-        <div class="bio-decoration deco-teal"></div>
-        <div class="bio-decoration deco-mustard"></div>
-        <div class="bio-decoration deco-blue"></div>
-
-        <p class="bio-label">About Me</p>
-
-        <p class="bio-text">
-            Lingzhi Yang is a digital artist from Shanghai, currently studying at Simon Fraser University's School of Interactive Arts and Technology (SIAT).
+        <p class="home-hero-title">
+          Rebuilding the world with pixels and inspiration.
         </p>
-
-        <p class="bio-text">
-            With a profound passion for storytelling and visual innovation, Lingzhi brings ideas to life through a diverse skill set in Adobe Photoshop, After Effects, and Premiere Pro.
-        </p>
-
-        <p class="bio-text">
-            His work effortlessly combines artistic creativity and technical expertise, resulting in visually stunning animations, professional-grade video edits, and captivating image designs.
-        </p>
-
-        <p class="bio-text">
-            In addition to visual media, Lingzhi is experienced in 3D modeling and design, using tools such as Onshape and Rhino to explore form, structure, and spatial thinking.
-        </p>
-
-        <p class="bio-text">
-            He also designs user interfaces in Figma and brings them to life using HTML and CSS, enabling him to build clean, functional, and visually consistent web experiences.
-        </p>
-
-        <p class="bio-text">
-            Furthermore, Lingzhi's proficiency in Java and Python empowers him to integrate cutting-edge technology seamlessly into his projects.
-        </p>
-
-        <p class="bio-text">
-            Driven by endless curiosity and a relentless pursuit of creativity, Lingzhi continuously explores new ways to blend art and technology, crafting digital experiences that resonate deeply with audiences.
-        </p>
-        </div>
-    </div>
+      </div>
     </section>
 
-    <section id="colors" class="content-section">
-      <div class="section-heading">
-        <p class="eyebrow">01</p>
-        <h2>Color Palette</h2>
-      </div>
-
-      <div class="palette-grid">
-        <div class="swatch">
-          <div class="swatch-box bg-paper"></div>
-          <h3>Paper</h3>
-          <p>#f3f1ec</p>
-        </div>
-
-        <div class="swatch">
-          <div class="swatch-box bg-ink"></div>
-          <h3>Ink</h3>
-          <p>#111111</p>
-        </div>
-
-        <div class="swatch">
-          <div class="swatch-box bg-teal"></div>
-          <h3>Teal</h3>
-          <p>#79d3cf</p>
-        </div>
-
-        <div class="swatch">
-          <div class="swatch-box bg-blue"></div>
-          <h3>Blue</h3>
-          <p>#2f84c6</p>
-        </div>
-
-        <div class="swatch">
-          <div class="swatch-box bg-pink"></div>
-          <h3>Pink</h3>
-          <p>#c96aa0</p>
-        </div>
-
-        <div class="swatch">
-          <div class="swatch-box bg-mustard"></div>
-          <h3>Mustard</h3>
-          <p>#9a8a2f</p>
-        </div>
-
-        <div class="swatch">
-          <div class="swatch-box bg-olive"></div>
-          <h3>Olive</h3>
-          <p>#b8bb17</p>
-        </div>
-
-        <div class="swatch">
-          <div class="swatch-box bg-orange"></div>
-          <h3>Orange</h3>
-          <p>#e85c1a</p>
-        </div>
-
-        <div class="swatch">
-          <div class="swatch-box bg-purple"></div>
-          <h3>Purple</h3>
-          <p>#4d3c96</p>
+    <section class="home-marquee-section">
+      <div class="marquee-shell">
+        <div class="marquee-track">
+          <span>It’s not just about looking good, it’s about telling a story worth hearing.</span>
+          <span>It’s not just about looking good, it’s about telling a story worth hearing.</span>
+          <span>It’s not just about looking good, it’s about telling a story worth hearing.</span>
+          <span>It’s not just about looking good, it’s about telling a story worth hearing.</span>
         </div>
       </div>
     </section>
 
-    <section id="type" class="content-section">
-      <div class="section-heading">
-        <p class="eyebrow">02</p>
-        <h2>Typography</h2>
-      </div>
-
-      <div class="type-showcase">
-        <div class="type-card">
-          <p class="type-label">Display</p>
-          <h1 class="display-sample">Build with feeling.</h1>
+    <section class="home-intro-section">
+      <div class="home-intro-grid">
+        <div class="home-intro-image">
+          <img src="img/aboutpage_img2.png" alt="Creative visual image for home page">
         </div>
 
-        <div class="type-card">
-          <p class="type-label">Heading</p>
-          <h2 class="heading-sample">Interactive Arts Portfolio System</h2>
-        </div>
-
-        <div class="type-card">
-          <p class="type-label">Body</p>
-          <p class="body-sample">
-            This style guide uses strong hierarchy, editorial spacing, and vivid accent colors to present web and game projects in a memorable way.
+        <div class="home-intro-text">
+          <p class="intro-label">Welcome</p>
+          <h1>Designing digital experiences with story, motion, and interaction.</h1>
+          <p>
+            This portfolio presents my creative work across visual storytelling, motion design, web design, and interactive media. It is a space where image, technology, and narrative come together through a personal visual language.
           </p>
-        </div>
-      </div>
-    </section>
 
-    <section id="components" class="content-section">
-      <div class="section-heading">
-        <p class="eyebrow">03</p>
-        <h2>Components</h2>
-      </div>
-
-      <div class="component-group">
-        <h3>Buttons</h3>
-        <div class="button-row">
-          <a href="#" class="btn btn-primary">Primary Action</a>
-          <a href="#" class="btn btn-outline">Secondary Action</a>
-          <a href="#" class="btn btn-block">Accent Button</a>
-        </div>
-      </div>
-
-      <div class="component-group">
-        <h3>Tags</h3>
-        <div class="tag-row">
-          <span class="tag tag-teal">Web Design</span>
-          <span class="tag tag-pink">Game Design</span>
-          <span class="tag tag-yellow">UI / UX</span>
-          <span class="tag tag-blue">Storytelling</span>
-        </div>
-      </div>
-
-      <div class="component-group">
-        <h3>Project Card</h3>
-        <article class="project-card">
-          <div class="card-top"></div>
-          <div class="card-content">
-            <p class="project-type">Interactive Project</p>
-            <h4>Portfolio Website System</h4>
-            <p>
-              A coded style guide that translates editorial aesthetics into reusable web components.
-            </p>
-            <div class="tag-row">
-              <span class="tag tag-teal">HTML</span>
-              <span class="tag tag-pink">CSS</span>
-              <span class="tag tag-yellow">Portfolio</span>
-            </div>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <section id="layout" class="content-section">
-      <div class="section-heading">
-        <p class="eyebrow">04</p>
-        <h2>Layout Rules</h2>
-      </div>
-
-      <div class="rules-grid">
-        <div class="rule-box">
-          <h3>Grid</h3>
-          <p>Use a two-column hero and spacious vertical rhythm.</p>
-        </div>
-        <div class="rule-box">
-          <h3>Contrast</h3>
-          <p>Keep most surfaces neutral and reserve saturated color for emphasis.</p>
-        </div>
-        <div class="rule-box">
-          <h3>Hierarchy</h3>
-          <p>Large display type, bold navigation, and compact supporting text.</p>
-        </div>
-        <div class="rule-box">
-          <h3>Identity</h3>
-          <p>Mix playful color blocking with structured editorial composition.</p>
-        </div>
-      </div>
-    </section>
-
-    <section id="template" class="content-section">
-      <div class="section-heading">
-        <p class="eyebrow">05</p>
-        <h2>Template Preview</h2>
-      </div>
-
-      <div class="template-preview">
-        <div class="preview-header">
-          <span>Lingzhi Yang</span>
-          <span>Selected Works 2026</span>
-        </div>
-
-        <div class="preview-main">
-          <div class="preview-title">
-            <h3>Designing digital experiences with story, play, and personality.</h3>
-          </div>
-
-          <div class="preview-list">
-            <div class="preview-item bg-teal">Project One</div>
-            <div class="preview-item bg-pink">Project Two</div>
-            <div class="preview-item bg-yellow">Project Three</div>
+          <div class="home-button-row">
+            <a class="btn btn-primary" href="projects.html">View Projects</a>
+            <a class="btn btn-outline" href="about.html">About Me</a>
           </div>
         </div>
       </div>
     </section>
-    <section id="projects" class="content-section">
-      <div class="section-heading">
-        <p class="eyebrow">06</p>
-        <h2>Selected Projects</h2>
-      </div>
-
-      <div class="projects-grid">
-       <article class="featured-project">
-  <div class="project-image-wrap">
-    <img src="img/Project_one_1.jpg" alt="Screenshot of Cyber City Farm project">
-  </div>
-
-  <div class="project-info">
-    <p class="project-number">Project 01</p>
-    <h3>Cyber City Farm</h3>
-
-    <div class="tag-row project-tags">
-      <span class="tag tag-teal">Java</span>
-      <span class="tag tag-pink">Game Design</span>
-      <span class="tag tag-yellow">Interactive Media</span>
-    </div>
-
-    <p class="project-description">
-      Cyber City Farm is an interactive Java game that combines farming simulation with action-based gameplay. 
-      In this project, the player takes care of a rabbit by planting seeds, growing carrots, harvesting crops, 
-      and feeding the rabbit, while also defending it from attacking robots. The game includes multiple states, 
-      character interactions, sound effects, animation, and a survival timer to create a more engaging experience.
-    </p>
-
-    <div class="project-meta">
-      <div class="meta-block">
-        <h4>My Role</h4>
-        <p>
-          I designed and developed the full game system, including gameplay logic, character behavior, animation handling, 
-          collision detection, and visual/audio integration.
-        </p>
-      </div>
-
-      <div class="meta-block">
-        <h4>Tools</h4>
-        <p>
-          Java, object-oriented programming, custom game logic, image assets, sound effects, and interactive state design.
-        </p>
-      </div>
-
-      <div class="meta-block">
-        <h4>Development Steps</h4>
-        <p>
-          I first planned the basic game structure and separated the project into different gameplay states such as the intro screen, 
-          active gameplay, and game over screen. After that, I built the core farming system so the player could plant seeds and 
-          harvest carrots. I then added the rabbit character as the center of the game and designed interactions where the rabbit 
-          could eat carrots and react to the player's actions.
-        </p>
-        <p>
-          In the next stage, I introduced robot enemies to add pressure and challenge. This required me to design movement, collisions, 
-          and a shooting system using carrot bullets. I also added sound effects, background music, and simple animations to make the 
-          experience feel more alive and responsive. Finally, I refined the timing system, balanced the gameplay flow, and organized 
-          the code into different classes so the project would be easier to manage and expand.
-        </p>
-      </div>
-
-      <div class="meta-block">
-        <h4>Outcome</h4>
-        <p>
-          This project helped me practice combining creative game ideas with technical problem-solving. It also strengthened my understanding 
-          of interactive systems, class structure, and how visual and audio elements can improve player experience.
-        </p>
-      </div>
-    </div>
-  </div>
-</article>
-
-
-<article class="featured-project">
-  <a class="project-image-link" href="https://www.youtube.com/watch?v=kCfwEwPG5IQ" target="_blank">
-    <div class="project-image-wrap">
-      <img src="img/Project_two_1.jpg" alt="Screenshot of Transformers text animation project">
-    </div>
-  </a>
-
-  <div class="project-info">
-    <p class="project-number">Project 02</p>
-    <h3>Transformers Text Animation</h3>
-
-    <div class="tag-row project-tags">
-      <span class="tag tag-blue">After Effects</span>
-      <span class="tag tag-pink">Motion Design</span>
-      <span class="tag tag-yellow">Typography</span>
-    </div>
-
-    <p class="project-description">
-      This project is a dynamic text animation inspired by Optimus Prime's iconic lines from Transformers. 
-      I used Adobe After Effects as the main tool and explored motion, pacing, and visual rhythm through animated typography. 
-      Additional tools such as Premiere Pro, Photoshop, PowerPoint, and Meitu supported the editing and visual development process.
-    </p>
-
-    <div class="project-meta">
-      <div class="meta-block">
-        <h4>My Role</h4>
-        <p>
-          I developed the full concept, visual direction, text animation, motion timing, and final video editing for this project.
-        </p>
-      </div>
-
-      <div class="meta-block">
-        <h4>Tools</h4>
-        <p>
-          Adobe After Effects, Premiere Pro, Photoshop, PowerPoint, and Meitu.
-        </p>
-      </div>
-
-      <div class="meta-block">
-        <h4>Design and Development Process</h4>
-        <p>
-          I began by choosing a well-known Transformers monologue and using it as the foundation for the animation. 
-          My goal was to create a video that felt dramatic, cinematic, and visually powerful through text alone. 
-          In the early stage, I focused on writing and organizing the line script so I could break the speech into sections with different pacing and emphasis.
-        </p>
-        <p>
-          After that, I started experimenting in After Effects with text movement, scale, rhythm, and transitions. 
-          My first version felt too simple, so I researched more advanced motion design techniques and tested different ways to create stronger visual impact. 
-          I explored methods such as camera movement, layered typography, and timing adjustments to make the animation feel more dynamic and expressive.
-        </p>
-        <p>
-          In the final stage, I refined the composition, improved readability, and adjusted the overall pacing of the video. 
-          I also used additional tools to support editing and visual enhancement. This process helped me better understand how motion, typography, and timing can work together to create a stronger emotional effect.
-        </p>
-      </div>
-
-      <div class="meta-block">
-        <h4>Outcome</h4>
-        <p>
-          This project strengthened my skills in motion graphics and visual storytelling. It also helped me learn how to build mood and intensity through animated text instead of relying only on images or characters.
-        </p>
-      </div>
-
-      <div class="project-link-row">
-        <a class="btn btn-primary" href="https://www.youtube.com/watch?v=kCfwEwPG5IQ" target="_blank">Watch Video</a>
-      </div>
-    </div>
-  </div>
-</article>
-
-
-      </div>
-    </section>
-
-
-
   </main>
 </body>
 </html>
