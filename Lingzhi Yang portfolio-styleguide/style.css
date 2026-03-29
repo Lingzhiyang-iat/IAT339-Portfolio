@@ -1563,3 +1563,22 @@ body {
     font-size: 0.98rem;
   }
 }
+
+.project-back-section {
+  padding: 0 2rem 5rem 2rem;
+}
+
+.project-back-inner {
+  max-width: 1280px;
+  margin: 0 auto;
+  border-top: 2px solid var(--ink);
+  padding-top: 1.6rem;
+}
+
+@media (max-width: 720px) {
+  .project-back-section {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 4rem;
+  }
+}
