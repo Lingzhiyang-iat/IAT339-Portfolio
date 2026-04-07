@@ -1642,3 +1642,36 @@ body {
     grid-column: span 1;
   }
 }
+/* Project 02 gallery */
+.project2-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(220px, 320px));
+  gap: 1rem;
+  justify-content: start;
+  margin: 1.4rem 0 1.4rem 0;
+}
+
+.project2-gallery-item {
+  border: 2px solid var(--ink);
+  background: var(--white);
+  overflow: hidden;
+  min-height: 180px;
+  padding: 0.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project2-gallery-item img {
+  width: 100%;
+  max-height: 220px;
+  object-fit: contain;
+  display: block;
+}
+
+@media (max-width: 720px) {
+  .project2-gallery {
+    grid-template-columns: 1fr;
+    max-width: 320px;
+  }
+}
